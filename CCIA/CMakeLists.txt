@@ -1,0 +1,2 @@
+link_libraries(pthread)
+add_executable(parallel_accumulate parallel_accumulate.cc)

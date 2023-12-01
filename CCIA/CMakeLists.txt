@@ -1,3 +1,4 @@
 link_libraries(pthread)
 add_executable(parallel_accumulate parallel_accumulate.cc)
 add_executable(threadsafe_stack threadsafe_stack.cc)
+add_executable(rwlock rwlock.cc)
